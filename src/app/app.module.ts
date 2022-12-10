@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroDetailsComponent } from './components/hero-details/hero-details.component';
+import { MessagesComponent } from './components/messages/messages.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -14,6 +15,7 @@ import { HeroDetailsComponent } from './components/hero-details/hero-details.com
     HelloComponent,
     HeroesComponent,
     HeroDetailsComponent,
+    MessagesComponent,
   ],
   bootstrap: [AppComponent],
 })
